@@ -1,0 +1,12 @@
+---
+:api_key: d7d5530677d0c1c76c0db2bca85a3cde
+:password: egrove@123
+:store: myshop-208.myshopify.com/admin/apps/privateapps
+:theme_id: 
+:whitelist_files:
+- layout/
+- assets/
+- config/
+- snippets/
+- templates/
+- locales/

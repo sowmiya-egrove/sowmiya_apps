@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: test_app_shopify
+  pool: 5
+  username: postgres
+  password: postgres
+
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   host: basics-live-db.ckmozajorkic.ap-southeast-1.rds.amazonaws.com
+#   port: 5432
+#   database: basicslife_db2
+#   pool: 30
+#   username: myadmin
+#   password: db321admin

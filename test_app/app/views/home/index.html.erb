@@ -1,0 +1,25 @@
+<% content_for :javascript do %>
+  <script type="text/javascript">
+    ShopifyApp.ready(function(){
+      ShopifyApp.Bar.initialize({
+        title: "Home",
+        icon: "<%= asset_path('favicon.ico') %>"
+      });
+    });
+  </script>
+<% end %>
+
+<h2>Products</h2>
+
+<ul><%#= assets %>
+  <%# @products.each do |product| %>
+  
+  <%#= ShopifyAPI::Asset.find(:all, :params => {:theme_id => 87212737, :key=>'templates/index.liquid'}).collect{|f| f.key} %>
+  
+    <!-- li>
+      <%#= link_to product.title, "https://#{@shop_session.url}/admin/products/#{product.id}", target: "_top" %>
+      <%#= "https://#{@shop_session.url}/admin/themes/#{product.id# link_to product.name, "https://#{@shop_session.url}/admin/themes/#{product.id}", target: "_top" %></li>
+  <%# end %> -->
+</ul>
+
+

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  shopify_account_url: MyString
+  shopify_api_key: MyString
+  shopify_password: 
+
+two:
+  shopify_account_url: MyString
+  shopify_api_key: MyString
+  shopify_password: 
